@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Arena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 50px;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .left-section {
+            width: 70%;
+        }
+
+        .right-section {
+            width: 30%;
+        }
+
+        .half-width {
+            width: 50%;
+        }
+
+        .third-width {
+            width: 32%;
+        }
+
+        .fifth-width {
+            width: 19%;
+        }
+
+        h2 {
+            background: #ffea00;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #333;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            background: #222;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trading Arena</h1>
+
+    <div class="container">
+        <!-- First row: Currency Pairs and Single Currencies -->
+        <div class="row">
+            <div class="left-section section">
+                <h2>Currency Pairs</h2>
+                <div class="row">
+                    <div class="third-width">
+                        <h3>Pairs Starting with USD</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/USDJPY/" target="_blank">USD/JPY</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDCHF/" target="_blank">USD/CHF</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDCAD/" target="_blank">USD/CAD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDAUD/" target="_blank">USD/AUD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDNZD/" target="_blank">USD/NZD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDHKD/" target="_blank">USD/HKD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDSGD/" target="_blank">USD/SGD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDSEK/" target="_blank">USD/SEK</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDNOK/" target="_blank">USD/NOK</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDTRY/" target="_blank">USD/TRY</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/USDZAR/" target="_blank">USD/ZAR</a></li>
+                        </ul>
+                    </div>
+                    <div class="third-width">
+                        <h3>Pairs Ending with USD</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/EURUSD/" target="_blank">EUR/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/GBPUSD/" target="_blank">GBP/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/AUDUSD/" target="_blank">AUD/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/NZDUSD/" target="_blank">NZD/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/CHFUSD/" target="_blank">CHF/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/CADUSD/" target="_blank">CAD/USD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/JPYUSD/" target="_blank">JPY/USD</a></li>
+                        </ul>
+                    </div>
+                    <div class="third-width">
+                        <h3>Other Currency Pairs</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/EURGBP/" target="_blank">EUR/GBP</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/EURJPY/" target="_blank">EUR/JPY</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/GBPAUD/" target="_blank">GBP/AUD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/GBPCAD/" target="_blank">GBP/CAD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/AUDJPY/" target="_blank">AUD/JPY</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/AUDNZD/" target="_blank">AUD/NZD</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/EURNZD/" target="_blank">EUR/NZD</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section section">
+                <h2>Single Currencies</h2>
+                <ul>
+                    <li><a href="https://www.tradingview.com/symbols/EUR/" target="_blank">Euro</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/GBP/" target="_blank">British Pound</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/JPY/" target="_blank">Japanese Yen</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/AUD/" target="_blank">Australian Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/NZD/" target="_blank">New Zealand Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/CHF/" target="_blank">Swiss Franc</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/CAD/" target="_blank">Canadian Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/SEK/" target="_blank">Swedish Krona</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/NOK/" target="_blank">Norwegian Krone</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/TRY/" target="_blank">Turkish Lira</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/ZAR/" target="_blank">South African Rand</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Second row: Commodities and Single Currencies -->
+        <div class="row">
+            <div class="left-section section">
+                <h2>Commodities</h2>
+                <div class="row">
+                    <div class="fifth-width">
+                        <h3>Precious Metals</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/XAUUSD/" target="_blank">Gold</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/XAGUSD/" target="_blank">Silver</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/XPTUSD/" target="_blank">Platinum</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/XPDUSD/" target="_blank">Palladium</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth-width">
+                        <h3>Energy</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/USOIL/" target="_blank">Crude Oil</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/NATGAS/" target="_blank">Natural Gas</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="fifth-width">
+                        <h3>Agricultural Products</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/ZC1!/" target="_blank">Corn</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/ZW1!/" target="_blank">Wheat</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/ZS1!/" target="_blank">Soybeans</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/CT1!/" target="_blank">Cotton</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth-width">
+                        <h3>Soft Commodities</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/COCOA/" target="_blank">Cocoa</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/SUGAR/" target="_blank">Sugar</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/COFFEE/" target="_blank">Coffee</a></li>
+                        </ul>
+                    </div>
+                    <div class="fifth-width">
+                        <h3>Livestock</h3>
+                        <ul>
+                            <li><a href="https://www.tradingview.com/symbols/LC1!/" target="_blank">Live Cattle</a></li>
+                            <li><a href="https://www.tradingview.com/symbols/FCE1!/" target="_blank">Feeder Cattle</a>
+                            </li>
+                            <li><a href="https://www.tradingview.com/symbols/HE1!/" target="_blank">Lean Hogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="right-section section">
+                <h2>Single Currencies</h2>
+                <ul>
+                    <li><a href="https://www.tradingview.com/symbols/EUR/" target="_blank">Euro</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/GBP/" target="_blank">British Pound</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/JPY/" target="_blank">Japanese Yen</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/AUD/" target="_blank">Australian Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/NZD/" target="_blank">New Zealand Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/CHF/" target="_blank">Swiss Franc</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/CAD/" target="_blank">Canadian Dollar</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/SEK/" target="_blank">Swedish Krona</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/NOK/" target="_blank">Norwegian Krone</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/TRY/" target="_blank">Turkish Lira</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/ZAR/" target="_blank">South African Rand</a></li>
+                </ul>
+            </div> -->
+        </div>
+
+        <!-- Third row: Indices and Treasury Bonds -->
+        <div class="row">
+            <div class="half-width section">
+                <h2>Indices</h2>
+                <ul>
+                    <li><a href="https://www.tradingview.com/symbols/INDEX:DJI/" target="_blank">Dow Jones Industrial
+                            Average</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/INDEX:NIKKEI/" target="_blank">Nikkei 225</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/INDEX:SPX/" target="_blank">S&P 500</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/INDEX:FTSE/" target="_blank">FTSE 100</a></li>
+                    <li><a href="https://www.tradingview.com/symbols/INDEX:DAX/" target="_blank">DAX 30</a></li>
+                </ul>
+            </div>
+            <div class="half-width section">
+                <h2>Treasury Bonds</h2>
+                <ul>
+                    <li><a href="https://www.tradingview.com/symbols/US10Y/" target="_blank">10-Year Treasury Note</a>
+                    </li>
+                    <li><a href="https://www.tradingview.com/symbols/US30Y/" target="_blank">30-Year Treasury Bond</a>
+                    </li>
+                    <li><a href="https://www.tradingview.com/symbols/US02Y/" target="_blank">2-Year Treasury Note</a>
+                    </li>
+                    <li><a href="https://www.tradingview.com/symbols/US05Y/" target="_blank">5-Year Treasury Note</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>6
